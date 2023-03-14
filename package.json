@@ -1,7 +1,7 @@
 {
   "name": "wedding-gallery",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,6 +10,22 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.18"
-  }
+    "astro": "^2.0.18",
+    "astro-google-fonts-optimizer": "^0.2.2",
+    "bootstrap": "^5.2.3",
+    "dayjs": "^1.11.7"
+  },
+  "description": "``` npm create astro@latest -- --template minimal ```",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dvgamerr/wedding-gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvgamerr/wedding-gallery/issues"
+  },
+  "homepage": "https://github.com/dvgamerr/wedding-gallery#readme"
 }
